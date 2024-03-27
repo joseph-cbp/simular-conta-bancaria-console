@@ -21,5 +21,7 @@ public class ContaTerminal {
         String response = String.format("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, conta %d e seu saldo %.2f já está disponível para saque", nomeCliente, agencia, numeroConta, saldo);
 
         System.out.println(response);
+
+        read.close();
     }
 }
